@@ -9,7 +9,7 @@ function PizzaList() {
             <Container style={{ marginTop: '20px' }}>
                 <Row>
                     {pizzaData && pizzaData.map((p) => (
-                        <Col key={p.id} sm={12} md={6} lg={4} className="mb-4">
+                        <Col key={p.id} sm={12} md={6} lg={4} className="mb-4 d-flex align-items-stretch">
                             <MyPizza pizza={p} />
                         </Col>
                     ))}
