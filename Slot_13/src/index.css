@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 16px/145% system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
